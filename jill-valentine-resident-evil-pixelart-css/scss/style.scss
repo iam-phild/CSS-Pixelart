@@ -1,0 +1,237 @@
+/* SOURCE: 
+https://www.deviantart.com/hacker33beta/art/Pixel-Art-Jill-Valentine-Resident-Evil-413035621
+https://www.deviantart.com/hacker33beta */
+
+$outline: #333;
+$hair: #b98075;
+$skin: #ccb883;
+$clothes: #55a6e7;
+$pocket: #8d7e79;
+$shoes: #6d6266;
+
+body {
+    background-color: white; 
+}
+
+.jill {
+    width:20rem;
+    height:20rem;
+    top:50%;
+    left:50%;
+    transform:translate(-35% ,-130%);
+    position:absolute;
+}
+
+.valentine {
+    width: 1rem;
+    height: 1rem;
+    box-shadow: 
+    /* row 1 */
+    5rem 0rem 0 0rem $outline,
+    6rem 0rem 0 0rem $outline,
+    7rem 0rem 0 0rem $outline,
+    /* row 2 */
+    3rem 1rem 0 0rem $outline,    
+    4rem 1rem 0 0rem $outline,
+    5rem 1rem 0 0rem $clothes,
+    6rem 1rem 0 0rem $clothes,
+    7rem 1rem 0 0rem $clothes,
+    8rem 1rem 0 0rem $outline,
+    /* row 3 */
+    2rem 2rem 0 0rem $outline,        
+    3rem 2rem 0 0rem $clothes,    
+    4rem 2rem 0 0rem $clothes,
+    5rem 2rem 0 0rem $clothes,
+    6rem 2rem 0 0rem $clothes,
+    7rem 2rem 0 0rem $outline,
+    8rem 2rem 0 0rem $outline,
+    /* row 4 */
+    2rem 3rem 0 0rem $hair,        
+    3rem 3rem 0 0rem $hair,    
+    4rem 3rem 0 0rem $hair,
+    5rem 3rem 0 0rem $hair,
+    6rem 3rem 0 0rem $hair,
+    7rem 3rem 0 0rem $skin,
+    8rem 3rem 0 0rem $outline,
+    /* row 5 */        
+    3rem 4rem 0 0rem $hair,    
+    4rem 4rem 0 0rem $hair,
+    5rem 4rem 0 0rem $hair,
+    6rem 4rem 0 0rem $hair,
+    7rem 4rem 0 0rem $skin,
+    8rem 4rem 0 0rem $outline,
+    /* row 6 */
+    3rem 5rem 0 0rem $outline,    
+    4rem 5rem 0 0rem $outline,
+    5rem 5rem 0 0rem $hair,
+    6rem 5rem 0 0rem $hair,
+    7rem 5rem 0 0rem $skin,
+    8rem 5rem 0 0rem $outline,
+    12rem 5rem 0 0rem $outline,
+    13rem 5rem 0 0rem $outline,
+    14rem 5rem 0 0rem $outline, 
+    15rem 5rem 0 0rem $outline,       
+    /* row 7 */
+    2rem 6rem 0 0rem $outline,  
+    3rem 6rem 0 0rem $clothes,      
+    4rem 6rem 0 0rem $clothes,
+    5rem 6rem 0 0rem $outline,
+    6rem 6rem 0 0rem $hair,
+    7rem 6rem 0 0rem $outline,
+    8rem 6rem 0 0rem $skin,
+    9rem 6rem 0 0rem $outline,
+    10rem 6rem 0 0rem $outline,        
+    11rem 6rem 0 0rem $outline,
+    12rem 6rem 0 0rem $outline,
+    13rem 6rem 0 0rem $outline,    
+    /* row 8 */
+    2rem 7rem 0 0rem $outline,  
+    3rem 7rem 0 0rem $clothes,      
+    4rem 7rem 0 0rem $clothes,
+    5rem 7rem 0 0rem $clothes,
+    6rem 7rem 0 0rem $outline,
+    7rem 7rem 0 0rem $outline,
+    8rem 7rem 0 0rem $outline,
+    9rem 7rem 0 0rem $skin,
+    10rem 7rem 0 0rem $skin,        
+    11rem 7rem 0 0rem $outline,
+    12rem 7rem 0 0rem $skin,
+    13rem 7rem 0 0rem $outline,    
+    /* row 9 */
+    2rem 8rem 0 0rem $outline,  
+    3rem 8rem 0 0rem $outline,      
+    4rem 8rem 0 0rem $outline,
+    5rem 8rem 0 0rem $outline,
+    6rem 8rem 0 0rem $skin,
+    7rem 8rem 0 0rem $skin,
+    8rem 8rem 0 0rem $skin,
+    9rem 8rem 0 0rem $skin,
+    10rem 8rem 0 0rem $outline,        
+    11rem 8rem 0 0rem $outline,
+    12rem 8rem 0 0rem $outline,
+    /* row 10 */
+    3rem 9rem 0 0rem $outline,
+    4rem 9rem 0 0rem $outline,
+    5rem 9rem 0 0rem $clothes,
+    6rem 9rem 0 0rem $outline,
+    7rem 9rem 0 0rem $outline,
+    8rem 9rem 0 0rem $outline,
+    9rem 9rem 0 0rem $outline,
+    /* row 11 */
+    4rem 10rem 0 0rem $outline,
+    5rem 10rem 0 0rem $clothes,    
+    6rem 10rem 0 0rem $clothes,
+    7rem 10rem 0 0rem $clothes,
+    8rem 10rem 0 0rem $outline,
+    /* row 12 */
+    4rem 11rem 0 0rem $outline,
+    5rem 11rem 0 0rem $clothes,    
+    6rem 11rem 0 0rem $clothes,
+    7rem 11rem 0 0rem $clothes,
+    8rem 11rem 0 0rem $outline,
+    /* row 13 */
+    3rem 12rem 0 0rem $outline,
+    4rem 12rem 0 0rem $outline,    
+    5rem 12rem 0 0rem $outline,    
+    6rem 12rem 0 0rem $outline,
+    7rem 12rem 0 0rem $outline,
+    8rem 12rem 0 0rem $outline,
+    /* row 14 */
+    3rem 13rem 0 0rem $outline,
+    4rem 13rem 0 0rem $pocket,    
+    5rem 13rem 0 0rem $pocket,    
+    6rem 13rem 0 0rem $clothes,
+    7rem 13rem 0 0rem $clothes,
+    8rem 13rem 0 0rem $clothes,
+    /* row 15 */
+    3rem 14rem 0 0rem $outline,
+    4rem 14rem 0 0rem $pocket,    
+    5rem 14rem 0 0rem $pocket,    
+    6rem 14rem 0 0rem $clothes,
+    7rem 14rem 0 0rem $clothes,
+    8rem 14rem 0 0rem $clothes,
+    9rem 14rem 0 0rem $outline,
+    /* row 16 */
+    3rem 15rem 0 0rem $outline,
+    4rem 15rem 0 0rem $clothes,    
+    5rem 15rem 0 0rem $clothes,    
+    6rem 15rem 0 0rem $clothes,
+    7rem 15rem 0 0rem $clothes,
+    8rem 15rem 0 0rem $clothes,
+    9rem 15rem 0 0rem $outline,
+    /* row 17 */
+    3rem 16rem 0 0rem $outline,
+    4rem 16rem 0 0rem $clothes,    
+    5rem 16rem 0 0rem $clothes,    
+    6rem 16rem 0 0rem $clothes,
+    7rem 16rem 0 0rem $outline,
+    8rem 16rem 0 0rem $clothes,
+    9rem 16rem 0 0rem $clothes,
+    10rem 16rem 0 0rem $outline,    
+    /* row 18 */
+    2rem 17rem 0 0rem $outline,    
+    3rem 17rem 0 0rem $outline,
+    4rem 17rem 0 0rem $clothes,    
+    5rem 17rem 0 0rem $clothes,    
+    6rem 17rem 0 0rem $outline,
+    7rem 17rem 0 0rem $outline,
+    8rem 17rem 0 0rem $clothes,
+    9rem 17rem 0 0rem $clothes,
+    10rem 17rem 0 0rem $outline,
+    /* row 19 */
+    2rem 18rem 0 0rem $outline,    
+    3rem 18rem 0 0rem $clothes,
+    4rem 18rem 0 0rem $clothes,    
+    5rem 18rem 0 0rem $outline,    
+    6rem 18rem 0 0rem $outline,
+    8rem 18rem 0 0rem $outline,
+    9rem 18rem 0 0rem $clothes,
+    10rem 18rem 0 0rem $clothes,
+    11rem 18rem 0 0rem $outline,   
+    /* row 20 */
+    1rem 19rem 0 0rem $outline,
+    2rem 19rem 0 0rem $clothes, 
+    3rem 19rem 0 0rem $clothes, 
+    4rem 19rem 0 0rem $clothes, 
+    5rem 19rem 0 0rem $outline,
+    8rem 19rem 0 0rem $outline,
+    9rem 19rem 0 0rem $clothes, 
+    10rem 19rem 0 0rem $clothes,
+    11rem 19rem 0 0rem $outline,                              
+    /* row 21 */
+    1rem 20rem 0 0rem $outline, 
+    2rem 20rem 0 0rem $clothes, 
+    3rem 20rem 0 0rem $clothes, 
+    4rem 20rem 0 0rem $outline, 
+    5rem 20rem 0 0rem $outline,
+    8rem 20rem 0 0rem $outline,
+    9rem 20rem 0 0rem $clothes, 
+    10rem 20rem 0 0rem $clothes,
+    11rem 20rem 0 0rem $outline,       
+    /* row 22 */
+    1rem 21rem 0 0rem $outline, 
+    2rem 21rem 0 0rem $clothes, 
+    3rem 21rem 0 0rem $clothes,
+    4rem 21rem 0 0rem $outline,
+    9rem 21rem 0 0rem $outline,
+    10rem 21rem 0 0rem $outline,        
+    /* row 23 */
+    2rem 22rem 0 0rem $outline,   
+    3rem 22rem 0 0rem $outline,
+    9rem 22rem 0 0rem $outline,    
+    10rem 22rem 0 0rem $shoes,
+    11rem 22rem 0 0rem $outline,
+    /* row 24 */
+    2rem 23rem 0 0rem $outline,
+    3rem 23rem 0 0rem $shoes,
+    4rem 23rem 0 0rem $outline,
+    9rem 23rem 0 0rem $outline,            
+    10rem 23rem 0 0rem $outline,
+    11rem 23rem 0 0rem $outline,
+    12rem 23rem 0 0rem $outline,        
+    /* row 25 */
+    2rem 24rem 0 0rem $outline,  
+    3rem 24rem 0 0rem $outline,
+    4rem 24rem 0 0rem $outline,
+    5rem 24rem 0 0rem $outline,                    
+}
