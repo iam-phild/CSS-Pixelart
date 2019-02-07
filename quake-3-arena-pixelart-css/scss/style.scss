@@ -1,0 +1,714 @@
+$woodsmoke:#18181a;
+$asphalt:#1a090c;
+$blackcurrant:#312a3a;
+$balticsea:#171619;
+$shark:#222427;
+$cinder:#13131b;
+$tundora:#474244;
+$bazaar:#907b81;
+$dustygray:#a8909a;
+$midgray:#5e6171;
+$shipgray:#434345;
+$opium:#8a7070;
+$americano:#87716d;
+$emperor:#524948;
+$pinkswan:#c0afb6;
+$shadylady:#b4a0af;
+$scarpaflow:#4f4b59;
+$hurricane:#827878;
+$nobel:#baabab;
+$xanadu:#777a78;
+$oslogray:#969a9b;
+$mischka:#d8d7de;
+$stormgray:#6f6e7a;
+$abbey:#44484b;
+$silversand:#b2b7b8;
+$edward:#adb5b3;
+$mystic:#e6ebee;
+$palesky:#6d7179;
+$capecod:#3f4447;
+$tiara:#d1d9d7;
+$mako:#40474b;
+$pumice:#b7b9b8;
+$venus:#9a9499;
+$mineshaft:#2c2a2a;
+$charade:#2f2d3b;
+$donjuan:#584c54;
+$dorado:#715c5a;
+$balticsea:#1f1e20;
+$spicypink:#7c6c6e;
+$nightrider:#220f12;
+$scarpaflow:#545057;
+$tuna:#313239;
+$congobrown:#593c40;
+$auchico:#905d5e;
+$copperrose:#9d6867;
+$pharlap:#a47578;
+$codgray:#1a1a1a;
+$zambezi:#645256;
+$coraltree:#A76160;
+$outerspace:#2f3438;
+$bastille:#161117;
+$saltbox:#645f69;
+$craterbrown:#4E2625;
+$mako:#41444A;
+$fedora:#6B636B;
+$gondola:#1f1319;
+$mortar:#514A55;
+$bunker:#030405;
+$cocoabrown:#36242a;
+$thunder:#38252e;
+$tamarind:#37181c;
+$jon:#3b2026;
+$cedar:#381315;
+$cocoabean:#3f1a1e;
+$buccaneer:#5b272f;
+$wineberry:#5e2023;
+$tawnyport:#6c252a;
+$crownofthorns:#762629;
+$burntumber:#892b2d;
+$stiletto:#932e32;
+$mexicanred:#9a2927;
+$roofterracotta:#a02520;
+$tallpoppy:#b82e2a;
+$tamarind:#271116;
+$matterhorn:#493a3c;
+$woodybrown:#4b2f31;
+$cowboy:#562b2c;
+$spicymix:#874f4b;
+$kabul:#664944;
+$dune:#312c2a;
+$oldbrick:#9b2621;
+$ferra:#744b4c;
+$scorpion:#645a5e;
+$heath:#531710;
+$cherrywood:#661915;
+$falured:#771e18;
+$romancoffee:#7a514d;
+$ironstone:#7a423b;
+$lotus:#7e3c38;
+$sanguinebrown:#853d37;
+$tosca:#90453d;
+$persianplum:#73211b;
+$matrix:#aa605c;
+$elsalva:#903834;
+$metalliccopper:#6b251f;
+$irishcoffee:#672926;
+$espresso:#571b17;
+$moccaccino:#6d1c16;
+$mocha:#79201a;
+$crail:#b73f3f;
+$nutmeg:#812F2E;
+$copperrust:#884E55;
+$mediumcarmine:#AA3433;
+$wellread:#b52f30;
+$appleblossom:#A73C3E;
+$solidpink:#85323A;
+$chestnut:#B34751;
+$brownderby:#511915;
+$coffeebean:#2e0d0d;
+$paco:#4e1614;
+$sambuca:#2e0f0c;
+
+body {
+    background-color: black; 
+}
+
+.quake3 {
+    width:20rem;
+    height:20rem;
+    top:50%;
+    left:50%;
+    transform:translate(-140% ,-130%);
+    position:absolute;
+}
+
+.arena {
+    width: 1rem;
+    height: 1rem;
+    box-shadow: 
+    /* row 1 */
+    29rem 0rem 0 0rem $woodsmoke,
+    30rem 0rem 0 0rem $balticsea,
+    /* row 2 */
+    29rem 1rem 0 0rem $cocoabrown,    
+    30rem 1rem 0 0rem $thunder,
+    /* row 3 */
+    29rem 2rem 0 0rem $tamarind,    
+    30rem 2rem 0 0rem $jon,
+    /* row 4 */
+    29rem 3rem 0 0rem $cedar,    
+    30rem 3rem 0 0rem $cocoabean,
+    /* row 5 */
+    29rem 4rem 0 0rem $cedar,    
+    30rem 4rem 0 0rem $cocoabean,
+    /* row 6 */
+    29rem 5rem 0 0rem $cedar,    
+    30rem 5rem 0 0rem $buccaneer,
+    /* row 7 */
+    29rem 6rem 0 0rem $wineberry,    
+    30rem 6rem 0 0rem $wineberry,
+    /* row 8 */
+    29rem 7rem 0 0rem $tawnyport,    
+    30rem 7rem 0 0rem $wineberry,
+    /* row 9 */
+    29rem 8rem 0 0rem $crownofthorns,    
+    30rem 8rem 0 0rem $crownofthorns,
+    /* row 10 */
+    29rem 9rem 0 0rem $crownofthorns,    
+    30rem 9rem 0 0rem $crownofthorns,
+    /* row 11 */
+    29rem 10rem 0 0rem $burntumber,    
+    30rem 10rem 0 0rem $burntumber,
+    /* row 12 */
+    29rem 11rem 0 0rem $stiletto,    
+    30rem 11rem 0 0rem $burntumber,
+    /* row 13 */
+    29rem 12rem 0 0rem $stiletto,    
+    30rem 12rem 0 0rem $burntumber,
+    /* row 14 */
+    29rem 13rem 0 0rem $stiletto,    
+    30rem 13rem 0 0rem $mexicanred,
+    /* row 15 */
+    29rem 14rem 0 0rem $mexicanred,    
+    30rem 14rem 0 0rem $mexicanred,
+    /* row 16 */
+    8rem 15rem 0 0rem $shark,
+    9rem 15rem 0 0rem $woodsmoke,
+    29rem 15rem 0 0rem $mexicanred,    
+    30rem 15rem 0 0rem $roofterracotta,
+    48rem 15rem 0 0rem $woodsmoke,
+    49rem 15rem 0 0rem $shark,
+    /* row 17 */
+    5rem 16rem 0 0rem $tundora,
+    6rem 16rem 0 0rem $bazaar,
+    7rem 16rem 0 0rem $dustygray,
+    8rem 16rem 0 0rem $midgray,
+    9rem 16rem 0 0rem $cinder,
+    29rem 16rem 0 0rem $mexicanred,    
+    30rem 16rem 0 0rem $mexicanred,
+    48rem 16rem 0 0rem $woodsmoke,
+    49rem 16rem 0 0rem $shipgray,
+    50rem 16rem 0 0rem $opium,
+    51rem 16rem 0 0rem $americano,
+    52rem 16rem 0 0rem $emperor,
+    /* row 18 */
+    3rem 17rem 0 0rem $midgray,
+    4rem 17rem 0 0rem $pinkswan,
+    5rem 17rem 0 0rem $shadylady,
+    6rem 17rem 0 0rem $scarpaflow,
+    29rem 17rem 0 0rem $roofterracotta,    
+    30rem 17rem 0 0rem $mexicanred,
+    51rem 17rem 0 0rem $shark,
+    52rem 17rem 0 0rem $hurricane,
+    53rem 17rem 0 0rem $nobel,
+    54rem 17rem 0 0rem $xanadu,
+    /* row 19 */
+    2rem 18rem 0 0rem $oslogray,
+    3rem 18rem 0 0rem $mischka,
+    4rem 18rem 0 0rem $stormgray,
+    29rem 18rem 0 0rem $mexicanred,    
+    30rem 18rem 0 0rem $mexicanred,
+    53rem 18rem 0 0rem $abbey,
+    54rem 18rem 0 0rem $silversand,
+    55rem 18rem 0 0rem $edward,
+    /* row 20 */
+    1rem 19rem 0 0rem $shark,
+    2rem 19rem 0 0rem $mystic,
+    3rem 19rem 0 0rem $palesky,
+    29rem 19rem 0 0rem $mexicanred,    
+    30rem 19rem 0 0rem $mexicanred,
+    54rem 19rem 0 0rem $mako,
+    55rem 19rem 0 0rem $tiara,
+    56rem 19rem 0 0rem $capecod,
+    /* row 21 */
+    1rem 20rem 0 0rem $woodsmoke,
+    2rem 20rem 0 0rem $silversand,
+    3rem 20rem 0 0rem $abbey,
+    29rem 20rem 0 0rem $tallpoppy,    
+    30rem 20rem 0 0rem $mexicanred,
+    54rem 20rem 0 0rem $capecod,
+    55rem 20rem 0 0rem $pumice,
+    56rem 20rem 0 0rem $charade,
+    /* row 22 */
+    2rem 21rem 0 0rem $shark,
+    3rem 21rem 0 0rem $venus,
+    4rem 21rem 0 0rem $venus,
+    5rem 21rem 0 0rem $mineshaft,
+    28rem 21rem 0 0rem $tamarind,    
+    29rem 21rem 0 0rem $tallpoppy,    
+    30rem 21rem 0 0rem $mexicanred,
+    31rem 21rem 0 0rem $nightrider,    
+    52rem 21rem 0 0rem $mineshaft,
+    53rem 21rem 0 0rem $hurricane,
+    54rem 21rem 0 0rem $hurricane,
+    55rem 21rem 0 0rem $charade,
+    /* row 23 */
+    2rem 22rem 0 0rem $woodsmoke,
+    3rem 22rem 0 0rem $shark,
+    4rem 22rem 0 0rem $donjuan,
+    5rem 22rem 0 0rem $bazaar,
+    6rem 22rem 0 0rem $bazaar,
+    7rem 22rem 0 0rem $dorado,
+    8rem 22rem 0 0rem $mineshaft,
+    28rem 22rem 0 0rem $tamarind,    
+    29rem 22rem 0 0rem $roofterracotta,    
+    30rem 22rem 0 0rem $roofterracotta,
+    31rem 22rem 0 0rem $nightrider,    
+    49rem 22rem 0 0rem $abbey,
+    50rem 22rem 0 0rem $spicypink,
+    51rem 22rem 0 0rem $bazaar,
+    52rem 22rem 0 0rem $opium,
+    53rem 22rem 0 0rem $emperor,
+    54rem 22rem 0 0rem $balticsea,
+    55rem 22rem 0 0rem $woodsmoke,
+    /* row 24 */
+    3rem 23rem 0 0rem $shark,
+    4rem 23rem 0 0rem $scarpaflow,
+    5rem 23rem 0 0rem $matterhorn,
+    6rem 23rem 0 0rem $woodybrown,
+    7rem 23rem 0 0rem $cowboy,
+    8rem 23rem 0 0rem $buccaneer,
+    9rem 23rem 0 0rem $spicymix,
+    10rem 23rem 0 0rem $spicymix,
+    11rem 23rem 0 0rem $spicymix,
+    12rem 23rem 0 0rem $kabul,
+    13rem 23rem 0 0rem $woodybrown,
+    14rem 23rem 0 0rem $dune,
+    15rem 23rem 0 0rem $codgray,    
+    28rem 23rem 0 0rem $tamarind,    
+    29rem 23rem 0 0rem $mexicanred,    
+    30rem 23rem 0 0rem $oldbrick,
+    31rem 23rem 0 0rem $tamarind,
+    43rem 23rem 0 0rem $tuna,
+    44rem 23rem 0 0rem $abbey,
+    45rem 23rem 0 0rem $scorpion,
+    46rem 23rem 0 0rem $bazaar,
+    47rem 23rem 0 0rem $pharlap,
+    48rem 23rem 0 0rem $copperrose,    
+    49rem 23rem 0 0rem $auchico,
+    50rem 23rem 0 0rem $ferra,
+    51rem 23rem 0 0rem $congobrown,
+    52rem 23rem 0 0rem $matterhorn,
+    53rem 23rem 0 0rem $tundora,
+    54rem 23rem 0 0rem $tuna,
+    /* row 25 */
+    4rem 24rem 0 0rem $shark,
+    5rem 24rem 0 0rem $midgray,
+    6rem 24rem 0 0rem $zambezi,
+    7rem 24rem 0 0rem $congobrown,
+    8rem 24rem 0 0rem $cocoabean,
+    9rem 24rem 0 0rem $cocoabean,
+    10rem 24rem 0 0rem $heath,
+    11rem 24rem 0 0rem $heath,
+    12rem 24rem 0 0rem $cherrywood,
+    13rem 24rem 0 0rem $cherrywood,
+    14rem 24rem 0 0rem $falured,
+    15rem 24rem 0 0rem $persianplum,
+    16rem 24rem 0 0rem $tosca,
+    17rem 24rem 0 0rem $tosca,
+    18rem 24rem 0 0rem $sanguinebrown,    
+    19rem 24rem 0 0rem $sanguinebrown,
+    20rem 24rem 0 0rem $lotus,
+    21rem 24rem 0 0rem $ironstone,
+    22rem 24rem 0 0rem $spicymix,    
+    23rem 24rem 0 0rem $romancoffee,    
+    24rem 24rem 0 0rem $romancoffee,
+    25rem 24rem 0 0rem $ferra,
+    26rem 24rem 0 0rem $balticsea,    
+    28rem 24rem 0 0rem $tamarind,    
+    29rem 24rem 0 0rem $roofterracotta,    
+    30rem 24rem 0 0rem $mexicanred,
+    31rem 24rem 0 0rem $tamarind,
+    33rem 24rem 0 0rem $shipgray,
+    34rem 24rem 0 0rem $copperrose,
+    35rem 24rem 0 0rem $bazaar,
+    36rem 24rem 0 0rem $copperrose,
+    37rem 24rem 0 0rem $copperrose,
+    38rem 24rem 0 0rem $auchico,
+    39rem 24rem 0 0rem $auchico,
+    40rem 24rem 0 0rem $coraltree,
+    41rem 24rem 0 0rem $matrix,
+    42rem 24rem 0 0rem $matrix,                
+    43rem 24rem 0 0rem $sanguinebrown,
+    44rem 24rem 0 0rem $elsalva,
+    45rem 24rem 0 0rem $elsalva,
+    46rem 24rem 0 0rem $crownofthorns,
+    47rem 24rem 0 0rem $metalliccopper,
+    48rem 24rem 0 0rem $buccaneer,    
+    49rem 24rem 0 0rem $congobrown,
+    50rem 24rem 0 0rem $ferra,
+    51rem 24rem 0 0rem $zambezi,
+    52rem 24rem 0 0rem $midgray,
+    53rem 24rem 0 0rem $shark,
+    /* row 26 */
+    6rem 25rem 0 0rem $outerspace,
+    7rem 25rem 0 0rem $scarpaflow,
+    8rem 25rem 0 0rem $zambezi,
+    9rem 25rem 0 0rem $congobrown,
+    10rem 25rem 0 0rem $espresso,
+    11rem 25rem 0 0rem $heath,
+    12rem 25rem 0 0rem $cherrywood,
+    13rem 25rem 0 0rem $cherrywood,
+    14rem 25rem 0 0rem $heath,
+    15rem 25rem 0 0rem $cherrywood,
+    16rem 25rem 0 0rem $cherrywood,
+    17rem 25rem 0 0rem $moccaccino,
+    18rem 25rem 0 0rem $moccaccino,    
+    19rem 25rem 0 0rem $falured,
+    20rem 25rem 0 0rem $mocha,
+    21rem 25rem 0 0rem $falured,
+    22rem 25rem 0 0rem $mocha,    
+    23rem 25rem 0 0rem $falured,    
+    24rem 25rem 0 0rem $falured,
+    25rem 25rem 0 0rem $mocha,
+    26rem 25rem 0 0rem $bastille,    
+    28rem 25rem 0 0rem $cedar,    
+    29rem 25rem 0 0rem $roofterracotta,    
+    30rem 25rem 0 0rem $roofterracotta,
+    31rem 25rem 0 0rem $cocoabean,
+    33rem 25rem 0 0rem $thunder,
+    34rem 25rem 0 0rem $crail,
+    35rem 25rem 0 0rem $stiletto,
+    36rem 25rem 0 0rem $oldbrick,
+    37rem 25rem 0 0rem $oldbrick,
+    38rem 25rem 0 0rem $falured,
+    39rem 25rem 0 0rem $falured,
+    40rem 25rem 0 0rem $falured,
+    41rem 25rem 0 0rem $moccaccino,
+    42rem 25rem 0 0rem $moccaccino,                
+    43rem 25rem 0 0rem $cherrywood,
+    44rem 25rem 0 0rem $cherrywood,
+    45rem 25rem 0 0rem $cherrywood,
+    46rem 25rem 0 0rem $cherrywood,
+    47rem 25rem 0 0rem $persianplum,
+    48rem 25rem 0 0rem $buccaneer,    
+    49rem 25rem 0 0rem $ferra,
+    50rem 25rem 0 0rem $spicypink,
+    51rem 25rem 0 0rem $saltbox,
+    52rem 25rem 0 0rem $tuna,
+    /* row 27 */
+    8rem 26rem 0 0rem $woodsmoke,
+    9rem 26rem 0 0rem $shark,    
+    10rem 26rem 0 0rem $mineshaft,
+    11rem 26rem 0 0rem $woodybrown,
+    12rem 26rem 0 0rem $craterbrown,
+    13rem 26rem 0 0rem $espresso,
+    14rem 26rem 0 0rem $heath,
+    15rem 26rem 0 0rem $heath,
+    16rem 26rem 0 0rem $cherrywood,
+    17rem 26rem 0 0rem $moccaccino,
+    18rem 26rem 0 0rem $falured,
+    19rem 26rem 0 0rem $falured,
+    20rem 26rem 0 0rem $persianplum,
+    21rem 26rem 0 0rem $mocha,    
+    22rem 26rem 0 0rem $persianplum,
+    23rem 26rem 0 0rem $falured,
+    24rem 26rem 0 0rem $falured,
+    25rem 26rem 0 0rem $mocha,
+    26rem 26rem 0 0rem $thunder,
+    28rem 26rem 0 0rem $cocoabean,
+    29rem 26rem 0 0rem $roofterracotta,
+    30rem 26rem 0 0rem $roofterracotta,  
+    31rem 26rem 0 0rem $cocoabean,
+    33rem 26rem 0 0rem $thunder,
+    34rem 26rem 0 0rem $mexicanred,
+    35rem 26rem 0 0rem $oldbrick,
+    36rem 26rem 0 0rem $persianplum, 
+    37rem 26rem 0 0rem $persianplum, 
+    38rem 26rem 0 0rem $persianplum,
+    39rem 26rem 0 0rem $cherrywood,
+    40rem 26rem 0 0rem $moccaccino,
+    41rem 26rem 0 0rem $cherrywood,
+    42rem 26rem 0 0rem $cherrywood,
+    43rem 26rem 0 0rem $cherrywood,
+    44rem 26rem 0 0rem $cherrywood,
+    45rem 26rem 0 0rem $espresso,
+    46rem 26rem 0 0rem $congobrown,
+    47rem 26rem 0 0rem $zambezi,
+    48rem 26rem 0 0rem $scarpaflow,
+    49rem 26rem 0 0rem $tuna,
+    50rem 26rem 0 0rem $woodsmoke,
+    /* row 28 */
+    13rem 27rem 0 0rem $woodsmoke,
+    14rem 27rem 0 0rem $thunder,
+    15rem 27rem 0 0rem $thunder,
+    16rem 27rem 0 0rem $woodybrown,
+    17rem 27rem 0 0rem $buccaneer,
+    18rem 27rem 0 0rem $lotus,
+    19rem 27rem 0 0rem $nutmeg,
+    20rem 27rem 0 0rem $burntumber,
+    21rem 27rem 0 0rem $burntumber,
+    22rem 27rem 0 0rem $oldbrick,
+    23rem 27rem 0 0rem $oldbrick,
+    24rem 27rem 0 0rem $oldbrick,
+    25rem 27rem 0 0rem $crownofthorns,
+    26rem 27rem 0 0rem $thunder,
+    28rem 27rem 0 0rem $cocoabean,
+    29rem 27rem 0 0rem $mexicanred,
+    30rem 27rem 0 0rem $roofterracotta,
+    31rem 27rem 0 0rem $cocoabean,
+    33rem 27rem 0 0rem $cocoabrown,
+    34rem 27rem 0 0rem $mexicanred,
+    35rem 27rem 0 0rem $oldbrick,
+    36rem 27rem 0 0rem $persianplum,
+    37rem 27rem 0 0rem $persianplum,
+    38rem 27rem 0 0rem $persianplum,
+    39rem 27rem 0 0rem $espresso,
+    40rem 27rem 0 0rem $cocoabean,
+    41rem 27rem 0 0rem $craterbrown,
+    42rem 27rem 0 0rem $cowboy,
+    43rem 27rem 0 0rem $thunder,
+    44rem 27rem 0 0rem $thunder,
+    45rem 27rem 0 0rem $shark,
+    /* row 29 */
+    18rem 28rem 0 0rem $woodsmoke,
+    19rem 28rem 0 0rem $shark,
+    20rem 28rem 0 0rem $mako,
+    21rem 28rem 0 0rem $scarpaflow,
+    22rem 28rem 0 0rem $fedora,
+    23rem 28rem 0 0rem $copperrust,
+    24rem 28rem 0 0rem $mexicanred,
+    25rem 28rem 0 0rem $oldbrick,
+    26rem 28rem 0 0rem $cinder,
+    28rem 28rem 0 0rem $cocoabean,
+    29rem 28rem 0 0rem $tallpoppy,
+    30rem 28rem 0 0rem $mexicanred,
+    31rem 28rem 0 0rem $cocoabean,
+    33rem 28rem 0 0rem $gondola,
+    34rem 28rem 0 0rem $oldbrick,
+    35rem 28rem 0 0rem $oldbrick,
+    36rem 28rem 0 0rem $craterbrown,
+    37rem 28rem 0 0rem $thunder,
+    38rem 28rem 0 0rem $balticsea,
+    39rem 28rem 0 0rem $woodsmoke,
+    40rem 28rem 0 0rem $woodsmoke,
+    41rem 28rem 0 0rem $woodsmoke,
+    /* row 30 */
+    22rem 29rem 0 0rem $shark,
+    23rem 29rem 0 0rem $ferra,
+    24rem 29rem 0 0rem $mediumcarmine,
+    25rem 29rem 0 0rem $oldbrick,
+    26rem 29rem 0 0rem $cinder,
+    28rem 29rem 0 0rem $cocoabean,
+    29rem 29rem 0 0rem $wellread,
+    30rem 29rem 0 0rem $tallpoppy,
+    31rem 29rem 0 0rem $cocoabean,
+    33rem 29rem 0 0rem $thunder,
+    34rem 29rem 0 0rem $oldbrick,
+    35rem 29rem 0 0rem $falured,
+    36rem 29rem 0 0rem $gondola,
+    /* row 31 */
+    22rem 30rem 0 0rem $woodsmoke,
+    23rem 30rem 0 0rem $zambezi,
+    24rem 30rem 0 0rem $stiletto,
+    25rem 30rem 0 0rem $oldbrick,
+    26rem 30rem 0 0rem $cinder,
+    28rem 30rem 0 0rem $cocoabean,
+    29rem 30rem 0 0rem $wellread,
+    30rem 30rem 0 0rem $tallpoppy,
+    31rem 30rem 0 0rem $cedar,
+    33rem 30rem 0 0rem $bastille,
+    34rem 30rem 0 0rem $oldbrick,
+    35rem 30rem 0 0rem $oldbrick,
+    36rem 30rem 0 0rem $gondola,
+    /* row 32 */
+    22rem 31rem 0 0rem $woodsmoke,
+    23rem 31rem 0 0rem $zambezi,
+    24rem 31rem 0 0rem $mexicanred,
+    25rem 31rem 0 0rem $persianplum,    
+    26rem 31rem 0 0rem $cinder,
+    28rem 31rem 0 0rem $tamarind,
+    29rem 31rem 0 0rem $mexicanred,
+    30rem 31rem 0 0rem $tallpoppy,
+    31rem 31rem 0 0rem $tamarind,
+    33rem 31rem 0 0rem $cinder,
+    34rem 31rem 0 0rem $oldbrick,
+    35rem 31rem 0 0rem $falured,
+    36rem 31rem 0 0rem $cocoabrown,
+    /* row 33 */
+    22rem 32rem 0 0rem $cinder,    
+    23rem 32rem 0 0rem $donjuan,
+    24rem 32rem 0 0rem $stiletto,
+    25rem 32rem 0 0rem $crownofthorns,
+    26rem 32rem 0 0rem $cinder,
+    28rem 32rem 0 0rem $tamarind,
+    29rem 32rem 0 0rem $roofterracotta,
+    30rem 32rem 0 0rem $mexicanred,
+    31rem 32rem 0 0rem $tamarind,
+    33rem 32rem 0 0rem $woodsmoke,
+    34rem 32rem 0 0rem $crownofthorns,
+    35rem 32rem 0 0rem $falured,
+    36rem 32rem 0 0rem $gondola,
+    /* row 34 */
+    22rem 33rem 0 0rem $cinder,  
+    23rem 33rem 0 0rem $mortar,
+    24rem 33rem 0 0rem $appleblossom,
+    25rem 33rem 0 0rem $burntumber,
+    26rem 33rem 0 0rem $cinder,
+    28rem 33rem 0 0rem $gondola,
+    29rem 33rem 0 0rem $mexicanred,
+    30rem 33rem 0 0rem $mexicanred,
+    31rem 33rem 0 0rem $gondola,
+    33rem 33rem 0 0rem $woodsmoke,
+    34rem 33rem 0 0rem $persianplum,
+    35rem 33rem 0 0rem $falured,
+    36rem 33rem 0 0rem $codgray,
+    /* row 35 */
+    22rem 34rem 0 0rem $cinder,  
+    23rem 34rem 0 0rem $shipgray,
+    24rem 34rem 0 0rem $appleblossom,
+    25rem 34rem 0 0rem $solidpink,
+    26rem 34rem 0 0rem $cinder,
+    28rem 34rem 0 0rem $gondola,
+    29rem 34rem 0 0rem $wellread,
+    30rem 34rem 0 0rem $oldbrick,
+    31rem 34rem 0 0rem $gondola,
+    33rem 34rem 0 0rem $bunker,
+    34rem 34rem 0 0rem $persianplum,
+    35rem 34rem 0 0rem $falured,
+    36rem 34rem 0 0rem $codgray,
+    /* row 36 */
+    23rem 35rem 0 0rem $balticsea,
+    24rem 35rem 0 0rem $chestnut,
+    25rem 35rem 0 0rem $solidpink,
+    26rem 35rem 0 0rem $cinder,
+    28rem 35rem 0 0rem $nightrider,
+    29rem 35rem 0 0rem $mexicanred,
+    30rem 35rem 0 0rem $oldbrick,
+    31rem 35rem 0 0rem $gondola,
+    33rem 35rem 0 0rem $gondola,
+    34rem 35rem 0 0rem $cherrywood,
+    35rem 35rem 0 0rem $persianplum,
+    36rem 35rem 0 0rem $codgray,
+    /* row 37 */
+    23rem 36rem 0 0rem $balticsea,
+    24rem 36rem 0 0rem $appleblossom,
+    25rem 36rem 0 0rem $solidpink,
+    26rem 36rem 0 0rem $cinder,
+    28rem 36rem 0 0rem $nightrider,
+    29rem 36rem 0 0rem $oldbrick,
+    30rem 36rem 0 0rem $crownofthorns,
+    31rem 36rem 0 0rem $thunder,
+    33rem 36rem 0 0rem $nightrider,
+    34rem 36rem 0 0rem $cherrywood,
+    35rem 36rem 0 0rem $persianplum,
+    36rem 36rem 0 0rem $woodsmoke,
+    /* row 38 */
+    24rem 37rem 0 0rem $stiletto,
+    25rem 37rem 0 0rem $buccaneer,
+    26rem 37rem 0 0rem $cinder,    
+    28rem 37rem 0 0rem $nightrider,    
+    29rem 37rem 0 0rem $oldbrick,
+    30rem 37rem 0 0rem $persianplum,
+    31rem 37rem 0 0rem $gondola,
+    33rem 37rem 0 0rem $nightrider,        
+    34rem 37rem 0 0rem $persianplum,
+    35rem 37rem 0 0rem $crownofthorns,
+    /* row 39 */
+    24rem 38rem 0 0rem $crownofthorns,
+    25rem 38rem 0 0rem $cocoabean,
+    28rem 38rem 0 0rem $nightrider,    
+    29rem 38rem 0 0rem $oldbrick,
+    30rem 38rem 0 0rem $persianplum,
+    31rem 38rem 0 0rem $gondola,    
+    34rem 38rem 0 0rem $tawnyport,
+    35rem 38rem 0 0rem $crownofthorns,
+    /* row 40 */
+    24rem 39rem 0 0rem $nutmeg,
+    25rem 39rem 0 0rem $cocoabean,
+    28rem 39rem 0 0rem $nightrider,    
+    29rem 39rem 0 0rem $falured,
+    30rem 39rem 0 0rem $persianplum,
+    31rem 39rem 0 0rem $gondola,     
+    34rem 39rem 0 0rem $tawnyport,
+    35rem 39rem 0 0rem $metalliccopper,
+    /* row 41 */
+    24rem 40rem 0 0rem $buccaneer,
+    25rem 40rem 0 0rem $cedar,
+    28rem 40rem 0 0rem $nightrider,    
+    29rem 40rem 0 0rem $cherrywood,
+    30rem 40rem 0 0rem $espresso,
+    31rem 40rem 0 0rem $gondola,    
+    34rem 40rem 0 0rem $cocoabean,
+    35rem 40rem 0 0rem $espresso,
+    /* row 42 */
+    24rem 41rem 0 0rem $wineberry,
+    25rem 41rem 0 0rem $tamarind,
+    29rem 41rem 0 0rem $persianplum,
+    30rem 41rem 0 0rem $espresso,
+    34rem 41rem 0 0rem $cedar,
+    35rem 41rem 0 0rem $brownderby,
+    /* row 43 */
+    24rem 42rem 0 0rem $wineberry,
+    25rem 42rem 0 0rem $jon,
+    29rem 42rem 0 0rem $espresso,
+    30rem 42rem 0 0rem $cocoabean,
+    34rem 42rem 0 0rem $coffeebean,
+    35rem 42rem 0 0rem $cedar,
+    /* row 44 */
+    24rem 43rem 0 0rem $cocoabean,
+    25rem 43rem 0 0rem $jon,
+    29rem 43rem 0 0rem $paco,
+    30rem 43rem 0 0rem $cocoabean,
+    34rem 43rem 0 0rem $cedar,
+    35rem 43rem 0 0rem $cedar,
+    /* row 45 */
+    24rem 44rem 0 0rem $cocoabean,
+    25rem 44rem 0 0rem $jon,
+    29rem 44rem 0 0rem $paco,
+    30rem 44rem 0 0rem $cocoabean,
+    34rem 44rem 0 0rem $coffeebean,
+    35rem 44rem 0 0rem $tamarind,
+    /* row 46 */
+    24rem 45rem 0 0rem $cocoabean,
+    25rem 45rem 0 0rem $cocoabrown,
+    29rem 45rem 0 0rem $paco,
+    30rem 45rem 0 0rem $cocoabean,
+    34rem 45rem 0 0rem $coffeebean,
+    35rem 45rem 0 0rem $tamarind,
+    /* row 47 */
+    24rem 46rem 0 0rem $cocoabean,
+    25rem 46rem 0 0rem $cocoabrown,
+    29rem 46rem 0 0rem $sambuca,
+    30rem 46rem 0 0rem $cocoabean,
+    34rem 46rem 0 0rem $tamarind,
+    35rem 46rem 0 0rem $tamarind,
+    /* row 48 */
+    24rem 47rem 0 0rem $jon,
+    25rem 47rem 0 0rem $cocoabrown,
+    29rem 47rem 0 0rem $coffeebean,
+    30rem 47rem 0 0rem $jon,
+    34rem 47rem 0 0rem $tamarind,
+    35rem 47rem 0 0rem $tamarind,
+    /* row 49 */
+    24rem 48rem 0 0rem $jon,
+    25rem 48rem 0 0rem $cocoabrown,
+    29rem 48rem 0 0rem $coffeebean,
+    30rem 48rem 0 0rem $jon,
+    34rem 48rem 0 0rem $gondola,
+    35rem 48rem 0 0rem $nightrider,
+    /* row 50 */
+    24rem 49rem 0 0rem $thunder,
+    25rem 49rem 0 0rem $blackcurrant,
+    29rem 49rem 0 0rem $coffeebean,
+    30rem 49rem 0 0rem $cocoabrown,
+    34rem 49rem 0 0rem $codgray,
+    35rem 49rem 0 0rem $codgray,
+    /* row 51 */
+    24rem 50rem 0 0rem $woodsmoke,
+    25rem 50rem 0 0rem $balticsea,
+    29rem 50rem 0 0rem $asphalt,
+    30rem 50rem 0 0rem $cocoabrown,
+    34rem 50rem 0 0rem $shark,
+    35rem 50rem 0 0rem $woodsmoke,
+    /* row 52 */
+    29rem 51rem 0 0rem $nightrider,
+    30rem 51rem 0 0rem $cocoabrown,
+    /* row 53 */
+    29rem 52rem 0 0rem $gondola,
+    30rem 52rem 0 0rem $thunder,
+    /* row 54 */
+    29rem 53rem 0 0rem $woodsmoke,
+    30rem 53rem 0 0rem $balticsea,
+}
